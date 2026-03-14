@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { Shield, Zap, ExternalLink, Clock, CheckCircle2, AlertCircle, Cpu, Activity, X, Info } from 'lucide-react';
+import { Zap, ExternalLink, Cpu, Activity, X, Info } from 'lucide-react';
 import { useState } from 'react';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
@@ -15,7 +15,7 @@ const PRODUCTS = [
     id: '2plug',
     title: 'IDEAL FOR GEORGIA (ორბუდიანი)',
     subtitle: 'პროფესიონალური დაცვა',
-    image: '/2штекер4мин.png',
+    image: '/1.png',
     delay: '4 წუთი',
     color: 'emerald',
     description: 'ეს არის მაღალი სიმძლავრის ძაბვის დამცველი მსხვილი ტექნიკისთვის. იცავს ძაბვის მკვეთრი ცვალებადობისგან (180V-240V).',
@@ -31,7 +31,7 @@ const PRODUCTS = [
     id: '4plug',
     title: 'ოთხბუდიანი მოდელი (ჩამრთველით)',
     subtitle: 'საოჯახო კომფორტი',
-    image: '/4штекер1ск.png',
+    image: '/2.png',
     delay: '1 წუთი',
     color: 'blue',
     description: 'გათვლილია წვრილ ტექნიკაზე და მოსახერხებელია მრავალი მოწყობილობის ერთდროულად მისაერთებლად.',
